@@ -2,7 +2,7 @@
 
 #USING FOR LOOP
 num=int(input("enter number for table:"))
-for i in range(11):
+for i in range(1,11):
     print(num, "X", i, "=",num*i)
 
 #USING WHILE LOOP
