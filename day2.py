@@ -103,5 +103,22 @@ elif(x<0 & y<0):
 else:
     print("4th quadrant")
 
+#TAX CALCULATOR
+
+money=int(input("enter your amount {$}:"))
+if(money<=10000):
+    print("no tax to paid")
+elif(10001<=money<=30000):
+    tax=(money*10)/100
+    print(tax,"amount to be paid as tax")
+elif(30001<=money<=89000):
+    tax=(money*20)/100
+    print(tax,"amount to be paid as tax")
+else:
+    tax=(money*30)/100
+    print(tax,"amount to be paid as tax")
+
+
 #PASSWORD STRENGTH CHECKER
+
 
