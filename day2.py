@@ -94,11 +94,11 @@ else:
 
 x=int(input("enter x coordinates:"))
 y=int(input("enter y coordinates:"))
-if(x>0 & y>0):
+if(x>0 and y>0):
     print("1st quadrant")
-elif(x<0 & y>0):
+elif(x<0 and y>0):
     print("2nd quadrant")
-elif(x<0 & y<0):
+elif(x<0 and y<0):
     print("3rd quadrant")
 else:
     print("4th quadrant")
@@ -117,8 +117,5 @@ elif(30001<=money<=89000):
 else:
     tax=(money*30)/100
     print(tax,"amount to be paid as tax")
-
-
-#PASSWORD STRENGTH CHECKER
 
 
